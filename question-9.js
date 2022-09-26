@@ -38,15 +38,9 @@ function createIndexForDictionary(d){
 //index to speed up your search.
 //Return true when you find it, and false if you do not.
 function indexSearch(needle, haystack, index){
-    let letterPosition = getPositionInAlphabet(needle); //TODO Remove Code
-    let start = index[letterPosition];
-    let end = index[letterPosition + 1];
-    for ( let i = start; i < end; i++ ){
-        if ( haystack[i] == needle ){
-            return true;
-        }
-    }
-    return false;
+
+    //(your code here)
+
 }
 
 let index = createIndexForDictionary(dictionary);
