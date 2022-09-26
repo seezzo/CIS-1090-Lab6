@@ -1,0 +1,12 @@
+module.exports = ["aardvark",
+"abattoir",
+"baby",
+"batman",
+"cat",
+"cooper",
+"water",
+"window",
+"xylophone",
+"yawl",
+"yello",
+"zebra"];
